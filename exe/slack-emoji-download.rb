@@ -1,3 +1,3 @@
 #!/usr/bin/env ruby
 
-require "slack/emoji/download.rb"
+require "slack-emoji-download"
