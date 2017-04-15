@@ -18,6 +18,8 @@ Or install it yourself as:
 
 ## Usage
 
+First, get your Slack API Token from [Legacy tokens | Slack](https://api.slack.com/custom-integrations/legacy-tokens)
+
 ```
 Usage:
   slack-emoji-download.rb -t, --token=TOKEN
