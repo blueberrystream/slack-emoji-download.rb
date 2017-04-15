@@ -18,7 +18,15 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+Usage:
+  slack-emoji-download.rb -t, --token=TOKEN
+
+Options:
+  -t, --token=TOKEN  # Slack API Token
+  -d, [--dest=DEST]  # direcotry for the dowload destination
+                     # Default: emoji
+```
 
 ## Development
 
