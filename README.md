@@ -30,6 +30,9 @@ Options:
                      # Default: emoji
 ```
 
+## How to import emoji to your Slack team
+Please use [Slack Emoji Tools](https://chrome.google.com/webstore/detail/slack-emoji-tools/anchoacphlfbdomdlomnbbfhcmcdmjej).
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
