@@ -26,7 +26,7 @@ Usage:
 
 Options:
   -t, --token=TOKEN  # Slack API Token
-  -d, [--dest=DEST]  # direcotry for the dowload destination
+  -d, [--dest=DEST]  # directory for the download destination
                      # Default: emoji
 ```
 
