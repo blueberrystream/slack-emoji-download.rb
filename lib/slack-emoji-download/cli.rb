@@ -8,7 +8,7 @@ module SlackEmojiDownload
 
     desc 'download', 'download slack custom emoji.'
     option :token, required: true, type: :string, aliases: '-t', desc: 'Slack API Token'
-    option :dest, type: :string, default: 'emoji', aliases: '-d', desc: 'direcotry for the dowload destination'
+    option :dest, type: :string, default: 'emoji', aliases: '-d', desc: 'directory for the download destination'
     def download
       return unless create_dest options[:dest]
 
@@ -31,7 +31,7 @@ module SlackEmojiDownload
         if FileTest.directory? path
           return yes? 'Overwrite files in this directory? (y/N)'
         else
-          say 'However this path is not a direcotry.', :red
+          say 'However this path is not a directory.', :red
           say 'Please specify the destination directory path to use --dest option.'
           return false
         end
